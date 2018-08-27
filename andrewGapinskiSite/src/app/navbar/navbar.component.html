@@ -2,12 +2,14 @@
 <nav class="navbar navbar-inverse">
     <div class="container-fluid">
       <div class="navbar-header">
-        <a class="navbar-brand" href="#">AG</a>
+        <a class="navbar-brand" routerLink="home">AG</a>
       </div>
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Page 1</a></li>
-        <li><a href="#">Page 2</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="professional">Professional</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="experience">Experience</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="portfolio">Portfolio</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="about">About Me</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="contact">Contact</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
@@ -16,3 +18,5 @@
     </div>
   </nav>
 </div>
+
+<router-outlet></router-outlet>
