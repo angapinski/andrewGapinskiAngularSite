@@ -25,6 +25,6 @@ import { ContactComponent } from './contact/contact.component';
     AppRoutingModule
   ],
   providers: [],
-  bootstrap: [NavbarComponent]
+  bootstrap: [AppComponent, NavbarComponent]
 })
 export class AppModule { }

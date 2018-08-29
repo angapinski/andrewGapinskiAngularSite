@@ -1,0 +1,15 @@
+.left-router-col{
+    background-color: #424447;
+    height: 100%;
+}
+
+.right-router-col{
+    height: 100%;
+}
+
+.row-eq-height {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display:         flex;
+  }
